@@ -1,0 +1,26 @@
+.item img:hover{
+    scale: 1.5;
+    transition: all .2s ease;
+}
+/* .container-fluid{
+    background: linear-gradient(45deg, blue,blue,blue,pink);
+} */
+.view-item{
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    z-index: 9999;
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
